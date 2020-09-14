@@ -15,3 +15,10 @@ function Bass(id){
   var audio = new Audio("AlzAlya_DrOwL_-_02_-_Basscadet_dream_version")
   audio.play();
 }
+
+
+steps
+
+git add .
+git commit -m "message for commit"
+git push origin musicMix
