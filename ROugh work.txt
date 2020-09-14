@@ -1,0 +1,17 @@
+
+function Piano(id){
+  var audio = new Audio("J_Syreus_Bach_-_Lesser_Faith")
+  audio.play();
+}
+
+
+function Guitar(id){
+  var audio = new Audio("Lorenzos_Music_-_03_-_Guitar_strut_1111")
+  audio.play();
+}
+
+
+function Bass(id){
+  var audio = new Audio("AlzAlya_DrOwL_-_02_-_Basscadet_dream_version")
+  audio.play();
+}
