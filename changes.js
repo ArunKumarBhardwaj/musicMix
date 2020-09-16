@@ -1,17 +1,25 @@
-
-    function music(id){
-      
-      if(id === "d"){
-        let audio = new Audio("Big_Thwack_120.mp3")
-        audio.play()
-      }
-      else if(id==="p"){
-          let audio = new Audio("J_Syreus_Bach_-_Lesser_Faith.mp3")
-          alert("hi")
-          audio.play()
+   document.addEventListener('keydown', function(e) {
+        if (e.keyCode == 65) {
+          document.getElementById('audio').play();
         }
-      }
 
+        else if (e.keyCode == 83){
+          document.getElementById('audio1').play();
+        }
+
+
+        else if (e.keyCode == 68){
+          document.getElementById('audio2').play();
+        }
+
+        else if (e.keyCode == 70){
+          document.getElementById('audio3').play();
+        }
+
+        else if (e.keyCode == 71){
+          document.getElementById('audio4').play();
+        }
+      });
 
     
 

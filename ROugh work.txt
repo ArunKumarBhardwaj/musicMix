@@ -17,8 +17,19 @@ function Bass(id){
 }
 
 
-steps
+steps :-
 
 git add .
 git commit -m "message for commit"
 git push origin musicMix
+
+<img src="razer-inc-high-performance-gaming-hardware-wallpaper-1366x768-2370_46.jpg" width="200" height="200">
+
+<div>
+      <img src="razer-inc-high-performance-gaming-hardware-wallpaper-1366x768-2370_46.jpg" width="200" height="200" data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+
+
+    <img src="gabriel-barletta--lWcaUVJ39Y-unsplash.jpg" class="watermark"/>
