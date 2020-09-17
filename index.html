@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   
 
     <title>VIRTUAL DRUM!</title>
   </head>
@@ -15,33 +15,42 @@
       <div class="logo">
         VIRTUAL DRUM!
       </div>
-  
-    <div data-key="65" onclick=play(this.id) id="1">
-      <kbd>A</kbd>
-      <span>SNARE</span>
-    </div>
+      <div class="container">
+        <div class="block">
+          <div data-key="65" onclick=play(this.id) id="1">
+            <kbd>A</kbd>
+            <span>SNARE</span>
+          </div>
+        </div>
+        
+        <div class="block">
+          <div data-key="83" onclick=play(this.id) id="2">
+            <kbd>S</kbd>
+            <span>KICK</span>
+          </div>
+        </div>
 
-    <div data-key="83" onclick=play(this.id) id="2">
-      <kbd>S</kbd>
-      <span>KICK</span>
-    </div>
+        <div class="block">
+          <div data-key="68" onclick=play(this.id) id="3">
+            <kbd>D</kbd>
+            <span>KICK</span>
+          </div>
+        </div>
 
-    <div data-key="68" onclick=play(this.id) id="3">
-      <kbd>D</kbd>
-      <span>KICK</span>
-    </div>
+        <div class="block">
+          <div data-key="70" onclick=play(this.id) id="4">
+            <kbd>F</kbd>
+            <span>HIGH</span>
+          </div>
+        </div>
 
-    <div data-key="70" onclick=play(this.id) id="4">
-      <kbd>F</kbd>
-      <span>HIGH</span>
-    </div>
-
-    <div data-key="71" onclick=play(this.id) id="5">
-      <kbd>G</kbd>
-      <span>MID</span>
-    </div>
-
-
+        <div class="block">
+          <div data-key="71" onclick=play(this.id) id="5">
+            <kbd>G</kbd>
+            <span>MID</span>
+          </div>
+        </div>
+  </div>
 
     <audio id="audio" controls style="display: none"> 
       <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav">
