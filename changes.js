@@ -1,4 +1,4 @@
-   document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function(e) {
         if (e.keyCode == 65) {
           document.getElementById('audio').play();
         }
@@ -21,25 +21,27 @@
         }
       });
 
-    
-
-
-
-    // function piano(id){
-    //   var audio = new Audio("J_Syreus_Bach_-_Lesser_Faith")
-    //   audio.play();
-    // }
-    
-    
-    // function guitar(id){
-    //   var audio = new Audio("Lorenzos_Music_-_03_-_Guitar_strut_1111")
-    //   audio.play();
-    // }
-    
-    
-    // function bass(id){
-    //   var audio = new Audio("AlzAlya_DrOwL_-_02_-_Basscadet_dream_version")
-    //   audio.play();
-    // }
-    
-  
+      function play(id){
+        
+        if(id==="1"){
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
+          audio.play();
+        }
+        else if(id==="2"){
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+          audio.play();
+        }
+        else if(id==="3"){
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+          audio.play();
+        }
+        else if(id==="4"){
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav")
+          audio.play();
+          }
+        else if(id==="5"){
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav")
+          audio.play();
+        }
+      }
+         
