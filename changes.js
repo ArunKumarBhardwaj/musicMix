@@ -34,32 +34,22 @@ document.addEventListener('keydown', function(e) {
 
       function play(id){
 
-          if(id==="1"){
-        //  var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
-         
+       if(id==="1"){
           audio1.play();
+       }
 
-        }
-        else if(id==="2"){
-        //  var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
-         
+       else if(id==="2"){
           audio2.play();
         }
 
         else if(id==="3"){
-       //   var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
-         
-          audio3.play();
+         audio3.play();
         }
 
         else if(id==="4"){
-         // var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav")
-          
           audio4.play();
           }
         else if(id==="5"){
-       //   var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav")
-          
           audio5.play();
         }
         
