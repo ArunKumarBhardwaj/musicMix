@@ -21,30 +21,46 @@ document.addEventListener('keydown', function(e) {
         }
       });
 
+      var audio1 = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
+      audio1.preload = 'auto';
+      var audio2 = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+      audio2.preload = 'auto';
+      var audio3 = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+      audio3.preload = 'auto';
+      var audio4 = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav")
+      audio4.preload = 'auto';
+      var audio5 = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav")
+      audio5.preload = 'auto';
+
       function play(id){
 
-
-        if(id==="1"){
-          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
-          audio.play();
+          if(id==="1"){
+        //  var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
+         
+          audio1.play();
 
         }
         else if(id==="2"){
-          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
-          audio.play();
-          block.style.backgroundColor = originalColor
+        //  var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+         
+          audio2.play();
         }
+
         else if(id==="3"){
-          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
-          audio.play();
+       //   var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+         
+          audio3.play();
         }
+
         else if(id==="4"){
-          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav")
-          audio.play();
+         // var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav")
+          
+          audio4.play();
           }
         else if(id==="5"){
-          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav")
-          audio.play();
+       //   var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav")
+          
+          audio5.play();
         }
         
       }
