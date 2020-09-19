@@ -1,88 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>musicMix</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="changes.js"></script>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body style="height:1500px">
 
-    <!-- Bootstrap CSS -->
-   
-
-    <title>VIRTUAL DRUM!</title>
-  </head>
-  <body>
-    <div class="main">   
-      <div class="logo">
-        VIRTUAL DRUM!
-      </div>
-      <div class="container">
-        <div class="block">
-          <div data-key="65" onclick=play(this.id) id="1">
-            <kbd>A</kbd>
-            <span>SNARE</span>
-          </div>
-        </div>
-        
-        <div class="block">
-          <div data-key="83" onclick=play(this.id) id="2">
-            <kbd>S</kbd>
-            <span>KICK</span>
-          </div>
-        </div>
-
-        <div class="block">
-          <div data-key="68" onclick=play(this.id) id="3">
-            <kbd>D</kbd>
-            <span>KICK</span>
-          </div>
-        </div>
-
-        <div class="block">
-          <div data-key="70" onclick=play(this.id) id="4">
-            <kbd>F</kbd>
-            <span>HIGH</span>
-          </div>
-        </div>
-
-        <div class="block">
-          <div data-key="71" onclick=play(this.id) id="5">
-            <kbd>G</kbd>
-            <span>MID</span>
-          </div>
-        </div>
-  </div>
-
-    <audio id="audio" controls style="display: none"> 
-      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav">
-     </audio>
-
-    <audio id="audio1" controls style="display:none">
-      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"> 
-    </audio>
-
-    <audio id="audio2" controls style="display:none">
-      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"> 
-    </audio>
-
-    <audio id="audio3" controls style="display:none">
-      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav"> 
-    </audio>
-
-    <audio id="audio4" controls style="display:none">
-      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav"> 
-    </audio>
-    
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="changes.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
-
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">musicMix</a>
     </div>
-  </body>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="index2.html">DRUM</a></li>
+      <li><a href="index3.html">GUITAR</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="homelogo">
+ WELCOME TO THE VIRTUAL MUSIC WORLD!
+</div>
+  
+</body>
 </html>

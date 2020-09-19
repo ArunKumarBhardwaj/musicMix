@@ -33,3 +33,111 @@ git push origin musicMix
 
 
     <img src="gabriel-barletta--lWcaUVJ39Y-unsplash.jpg" class="watermark"/>
+
+
+    switch(id){
+          case 1: if(id == "1")
+          {
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
+          audio.play();
+          }
+
+          case 2: if(id == "2")
+          {
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+          audio.play();
+          }
+
+          case 3: if(id == "3")
+          {
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+          audio.play();
+          }
+
+          case 4: if(id == "4")
+          {
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav")
+          audio.play();
+          }
+
+          case 5: if(id == "5")
+          {
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav")
+          audio.play();
+          }
+
+          const block = document.getElementById(id)
+        const originalColor = getComputedStyle(block, null).getPropertyValue("background-color")
+        setTimeout(function(){ 
+          block.style.backgroundColor = "red"; },
+           00);
+
+
+                  document.body.addEventListener('click', function(e){
+        var self = this,
+        old_bg = this.style.background;
+
+    this.style.background = this.style.background=='green'? 'blue':'green';
+    setTimeout(function(){
+        self.style.background = old_bg;
+    }, 1000);
+})
+
+
+
+
+
+
+
+           <div class="block">
+          <div data-key="65" onclick=play(this.id) id="1">
+            <kbd>A</kbd>
+            <span>SNARE</span>
+ </div>
+
+<div data-key="83" onclick=play(this.id) id="2">
+            <kbd>S</kbd>
+            <span>KICK</span>
+ </div>
+
+
+function play(id){
+       
+        document.div.addEventListener('click', function(e){
+        var self = this,
+        old_bg = this.style.background;
+
+    this.style.background = this.style.background=='green'? 'blue':'green';
+    setTimeout(function(){
+        self.style.background = old_bg;
+    }, 1000);
+})
+    
+        
+        if(id==="1"){
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
+          audio.play();
+
+        }
+        else if(id==="2"){
+          var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
+          audio.play();
+          block.style.backgroundColor = originalColor
+        }
+
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+
+ <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="index2.html">Virtual Drum</a>
+        <a href="#guitar">Virtual Guitar</a>
+      </div>
+      <div style="padding-left:16px">
+      </div>

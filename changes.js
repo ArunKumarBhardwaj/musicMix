@@ -22,14 +22,17 @@ document.addEventListener('keydown', function(e) {
       });
 
       function play(id){
-        
+
+
         if(id==="1"){
           var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav")
           audio.play();
+
         }
         else if(id==="2"){
           var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
           audio.play();
+          block.style.backgroundColor = originalColor
         }
         else if(id==="3"){
           var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav")
@@ -43,5 +46,6 @@ document.addEventListener('keydown', function(e) {
           var audio = new Audio("https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav")
           audio.play();
         }
+        
       }
          
