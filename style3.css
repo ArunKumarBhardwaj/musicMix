@@ -1,8 +1,10 @@
 
-div.maintainence{
+.maintainence{
+    font-family: Dancing Script;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
-    font-weight: bold;
 }
