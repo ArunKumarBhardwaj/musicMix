@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>musicMix</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="drum.css">
+  <script src="drum.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="home.html" >musicMix</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="drum.html" class="active">DRUM</a>
+          <a href="guitar.html">GUITAR</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="main">   
+     
+        <div class="logo">
+          VIRTUAL DRUM!
+        </div>
+        <div class="containers">
+          <div class="block">
+            <div data-key="65" onclick=play(this.id) id="1" class="key">
+              <kbd>A</kbd>
+              <span>SNARE</span>
+            </div>
+          </div>
+          
+          <div class="block">
+            <div data-key="83" onclick=play(this.id) id="2">
+              <kbd>S</kbd>
+              <span>KICK</span>
+            </div>
+          </div>
+  
+          <div class="block">
+            <div data-key="68" onclick=play(this.id) id="3">
+              <kbd>D</kbd>
+              <span>KICK</span>
+            </div>
+          </div>
+  
+          <div class="block">
+            <div data-key="70" onclick=play(this.id) id="4">
+              <kbd>F</kbd>
+              <span>HIGH</span>
+            </div>
+          </div>
+  
+          <div class="block">
+            <div data-key="71" onclick=play(this.id) id="5">
+              <kbd>G</kbd>
+              <span>MID</span>
+            </div>
+          </div>
+    </div>
+  
+      <audio id="audio" controls style="display: none"> 
+        <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav">
+       </audio>
+  
+      <audio id="audio1" controls style="display:none">
+        <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"> 
+      </audio>
+  
+      <audio id="audio2" controls style="display:none">
+        <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"> 
+      </audio>
+  
+      <audio id="audio3" controls style="display:none">
+        <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav"> 
+      </audio>
+  
+      <audio id="audio4" controls style="display:none">
+        <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav"> 
+      </audio>
+
+      
+</body>
+</html>

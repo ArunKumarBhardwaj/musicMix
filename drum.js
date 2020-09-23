@@ -1,4 +1,14 @@
-document.addEventListener('keydown', function(e) {
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+
+      document.addEventListener('keydown', function(e) {
         if (e.keyCode == 65) {
           document.getElementById('audio').play();
         }
@@ -52,6 +62,7 @@ document.addEventListener('keydown', function(e) {
         else if(id==="5"){
           audio5.play();
         }
-        
       }
+    
+      
          
