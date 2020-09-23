@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-div.maintainence{
-    font-family: Dancing Script;
-    font-size: 5em;
-    font-weight: bold;
-    margin-top: 200px;
-    display: flex;
+.containers{
+    display:flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+
+.containers h1{
+    font-family: Dancing Script;
+    font-weight: bold;
+    font-size: 5em;
+
 }

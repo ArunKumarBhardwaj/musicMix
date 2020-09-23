@@ -152,3 +152,21 @@ function play(id){
       </div>
 
       style="height:1500px"
+
+
+
+      index2 nav
+
+      
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">musicMix</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="index2.html">DRUM</a></li>
+          <li><a href="index3.html">GUITAR</a></li>
+        </ul>
+      </div>
+    </nav>
